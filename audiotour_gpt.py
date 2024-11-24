@@ -5,8 +5,6 @@ import torch
 from pydub import AudioSegment
 import openai
 
-# Store your API key securely (make sure to keep this safe)
-openai.api_key = "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"
 
 # Load the Whisper model
 model = whisper.load_model("base")  # You can change this to "tiny", "small", "medium", or "large"
