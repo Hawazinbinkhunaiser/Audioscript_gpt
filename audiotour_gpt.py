@@ -6,7 +6,7 @@ from pydub import AudioSegment
 import openai
 
 # Store your API key securely (make sure to keep this safe)
-openai.api_key = "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"
+openai.api_key = "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"
 
 
 # Load the Whisper model
